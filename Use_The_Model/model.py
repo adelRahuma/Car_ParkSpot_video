@@ -40,7 +40,7 @@ def extract_features(image):
 
 # Initialize video capture
 # path = os.path.join('.','Use_The_Model', 'parking_1920_1080.mp4')
-video_path = "./Use_The_Model/parking_1920_1080.mp4"
+video_path = "./data/parking_1920_1080_loop.mp4"
 cap = cv2.VideoCapture(video_path)
 
 frame_skip = 3  # Process every 3rd frame for faster performance
